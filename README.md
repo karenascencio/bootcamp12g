@@ -1,2 +1,5 @@
 # bootcamp12g
-Trabajo hecho durante el bootcamp de Kodemia 
+## Karen Ascencio 
+
+
+Entregables hechos durante módulo de Front-End en el bootcamp de Kodemia. 
