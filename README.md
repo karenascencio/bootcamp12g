@@ -1,5 +1,5 @@
 # bootcamp12g
-## Karen Ascencio 
+## Karen 
 
 
 Entregables hechos durante módulo de Front-End en el bootcamp de Kodemia. 
