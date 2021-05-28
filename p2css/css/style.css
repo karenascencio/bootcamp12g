@@ -43,7 +43,7 @@ h1, h2{
 }
 
 #chart-one, #chart-two, #chart-three{
-    display: inline-block;
+    display: inline-block; 
     color: hsla(0, 0%, 100%, 0.6);
     margin-right: 25px;
     font-variant: small-caps;
