@@ -1,0 +1,30 @@
+
+*{
+    font-size: 18px;
+}
+
+header{
+    background-color: rgb(102,255,255)
+}
+
+nav {
+    background-color: rgb(223,1,215);
+    
+}
+
+section{
+    background-color: rgb(102,153,255)
+}
+
+article{
+    background-color: rgb(102,153,255)
+}
+
+aside {
+    background-color: rgb(247,129,159);
+
+}
+
+footer{
+    background-color: rgb(206,206,246)
+}
