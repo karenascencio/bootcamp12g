@@ -3,28 +3,69 @@
     font-size: 18px;
 }
 
+
+
 header{
-    background-color: rgb(102,255,255)
+    background-color: rgb(102,255,255);
+    height: 130px;
+    width: 1000px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
 }
 
 nav {
     background-color: rgb(223,1,215);
-    
+    height: 40px;
+    width: 960px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
+main{
+    margin-top: 30px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+
 section{
-    background-color: rgb(102,153,255)
+    background-color: rgb(102,153,255);
+    width: 725px;
+    height: 500px;
+    position: absolute;
+    margin-right: 35px;
+
 }
 
 article{
-    background-color: rgb(102,153,255)
+    background-color: rgb(245,169,225);
+    margin-top: 20px;
+    width: 660px;
+    height: 135px;
+    margin-left: 20px;
 }
 
 aside {
     background-color: rgb(247,129,159);
+    position: absolute;
+    margin-left: 750px;
+    width: 250px;
+    height: 500px;
 
 }
 
 footer{
-    background-color: rgb(206,206,246)
+    background-color: rgb(206,206,246); 
+    height: 100px;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 550px;
 }
