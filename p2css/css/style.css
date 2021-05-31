@@ -1,3 +1,75 @@
+body{
+    background-color: hsl(233, 47%, 7%);
+    font-family: 'Inter', sans-serif;
+    color: aliceblue;
+}
+
+#father{
+    position: relative;
+    width: 1000px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 200px;
+    background-color: hsl(244, 38%, 16%);
+
+}
+
+section{
+    position: absolute;
+    width: 500px;
+}
+
+img{
+    width: 500px;
+    height: 450px;
+    position: absolute;
+    margin-left: 50%;
+}
+
+h1{
+    position: absolute;
+    width: 350px;
+    height: 70px;
+    margin-left: 75px;
+    margin-top: 60px;
+
+}
+
+#header-remark{
+    color: hsl(277, 64%, 61%);
+}
+
+#description-box{
+    position: absolute;
+    margin-top: 180px;
+    width: 350px;
+    margin-left: 75px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.chart{
+    display: inline-block;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 75px;
+    font-variant: small-caps;
+}
+
+.c-two {
+    position: absolute;
+    margin-left: 200px;
+}
+
+.c-three{
+    position: absolute;
+    margin-left: 330px;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
 
 
 
