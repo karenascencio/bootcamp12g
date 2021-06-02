@@ -1,0 +1,31 @@
+@keyframes rotation {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
+.figure{
+    background-color: hsl(313, 18%, 64%);
+    width:150px;
+    height:150px;
+    margin-top:50px;
+    margin-left: 50px;
+}
+
+form input#activation-box:checked ~.figure{
+    animation: rotation 3s infinite linear;
+}
+
+form input#activation-box::before{
+    content: "Activate";
+}
+
+form input#activation-box:checked::before{
+    content: "Deactivate";
+}
+
