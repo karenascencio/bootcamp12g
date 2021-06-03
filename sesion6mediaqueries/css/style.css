@@ -35,13 +35,16 @@
     
 }
 
-@media only screen and (min-width:1000px){
+@media only screen and (min-width:1200px){
+
+    .flex-wrapper .item{
+        height: auto;
+    }
     
     .flex-wrapper{
-        height: auto;
         justify-content: space-between;
-        flex-direction: row;
-        align-items: stretch;
+        flex-direction:row;
+        align-items:stretch;
     }
     
 }

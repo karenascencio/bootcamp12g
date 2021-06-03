@@ -1,40 +1,74 @@
-*{
-    font-family: 'Big Shoulders Display', cursive;
-}
-
 main{
     width: 100vw;
     height: 100vh;
     background-color: white;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     .cars-div{
-        width: 100px;
-        height: 200px;
+        width: 200px;
+        height: 400px;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
         img{
-            width: 30px;
+            width: 40px;
             height: 30px;
             
         }
         h2{
             font-family: 'Big Shoulders Display', cursive;
+            color: hsl(0, 0%, 95%);
+            text-transform: uppercase;
+            
         }
         p{
-            font-family: 'Lexend Deca', sans-serif;    
+            font-family: 'Lexend Deca', sans-serif;
+            font-size: 15px;
+            color: hsla(0, 0%, 100%, 0.75);    
         }
         button{
             font-family: 'Lexend Deca', sans-serif;
+            font-size: auto;
+            background-color: hsl(0, 0%, 95%);
+            border-radius: 20px;
+            height: 3em;
+            width: 10em;
+            &.yellow-button{
+                color: hsl(31, 77%, 52%);
+            }
+    
+            &.blue-button{
+                color: hsl(184, 100%, 22%);
+            }
+    
+            &.green-button{
+                color: hsl(179, 100%, 13%);
+            }
         }
+
         &.car-div-one{
             background-color: hsl(31, 77%, 52%);
+
         }
         &.car-div-two{
+            background-color: hsl(184, 100%, 22%);
 
         }
         &.car-div-three{
-            Dark cyan: hsl(184, 100%, 22%)
+            background-color: hsl(179, 100%, 13%);
         }
     }
+}
 
-
+@media only screen and (min-width:1200px){
+    main{
+        display: flex;
+        flex-direction: row;
+    }
 }
 
