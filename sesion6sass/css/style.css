@@ -1,0 +1,35 @@
+* {
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .cars-div {
+  width: 100px;
+  height: 200px;
+}
+
+main .cars-div img {
+  width: 30px;
+  height: 30px;
+}
+
+main .cars-div h2 {
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+main .cars-div p {
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+main .cars-div button {
+  font-family: 'Lexend Deca', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,48 @@
+.flex-wrapper{
+    width:100vw;
+    height:100vh;
+    margin:10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item{
+    width:100px;
+    height:100px;
+    margin: 1rem;
+}
+
+.item1{
+    background-color: rgb(117,127,117)
+}
+
+.item2{
+    background-color: blanchedalmond;
+}
+
+.item3{
+    background-color: coral;
+}
+
+@media only screen and (min-width:768px){
+    .flex-wrapper{
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
+    
+}
+
+@media only screen and (min-width:1000px){
+    
+    .flex-wrapper{
+        height: auto;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: stretch;
+    }
+    
+}
+
