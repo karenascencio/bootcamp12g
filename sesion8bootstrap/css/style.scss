@@ -1,0 +1,103 @@
+$Very-dark-magenta: hsl(300, 43%, 22%);
+$Sof-pink: hsl(333, 80%, 67%);
+$Dark-grayish-magenta: hsl(303, 10%, 53%);
+$Light-grayis-magenta: hsl(300, 24%, 96%);
+$White: hsl(0, 0%, 100%);
+$Spartan: 'Spartan', sans-serif;
+
+*{
+    font-family: $Spartan;
+    font-size: 15px;
+}
+
+.rating-card{
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $Light-grayis-magenta;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+
+    .five-stars{
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    p{
+        margin-bottom: 0;
+        margin-top: 1rem;
+        color: $Very-dark-magenta;
+    }
+    
+}
+
+.custom-card{
+    background-color: $Very-dark-magenta;
+    border-radius: 10px;
+    padding: 3rem;
+    margin-bottom: 1rem;
+    .custom-card-header{
+        align-items: center;
+        padding-bottom: 1rem;;
+        img{
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+        }
+        .card-column{
+            display: flex;
+            flex-direction: column;
+            margin-left: 1rem;
+            h4{
+                color: $White;
+            }
+            p{
+                color:$Sof-pink;
+            }
+        }
+    }
+    p{
+        margin-bottom: 0;
+        color: $White;
+    }
+}
+
+.text-{
+    &magenta{
+        color: $Very-dark-magenta;
+    }
+    &graymagenta{
+        color:$Dark-grayish-magenta;
+    }
+}
+
+
+
+
+
+@media only screen and (min-width:992px){
+
+    body{
+        display: flex;
+        align-items: center;
+        height: 100vh;
+    }
+    .rating-card{
+        flex-direction: row;
+        width: 25rem;  
+            .five-stars{
+                margin-right: 1rem;
+                margin-top: .5rem;
+            }
+            &:first-child{
+                margin-bottom: 1rem;
+            }
+            &:nth-child(2){
+                margin-left: 5rem;
+                margin-bottom: 1rem;
+            }
+            &:last-child{
+                margin-left: 10rem;
+            }
+    }
+}

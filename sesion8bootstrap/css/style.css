@@ -1,0 +1,121 @@
+* {
+  font-family: "Spartan", sans-serif;
+  font-size: 15px;
+}
+
+.rating-card {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #f7f2f7;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.rating-card .five-stars {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.rating-card p {
+  margin-bottom: 0;
+  margin-top: 1rem;
+  color: #502050;
+}
+
+.custom-card {
+  background-color: #502050;
+  border-radius: 10px;
+  padding: 3rem;
+  margin-bottom: 1rem;
+}
+
+.custom-card .custom-card-header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 1rem;
+}
+
+.custom-card .custom-card-header img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.custom-card .custom-card-header .card-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 1rem;
+}
+
+.custom-card .custom-card-header .card-column h4 {
+  color: white;
+}
+
+.custom-card .custom-card-header .card-column p {
+  color: #ee68a4;
+}
+
+.custom-card p {
+  margin-bottom: 0;
+  color: white;
+}
+
+.text-magenta {
+  color: #502050;
+}
+
+.text-graymagenta {
+  color: #937b92;
+}
+
+@media only screen and (min-width: 992px) {
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100vh;
+  }
+  .rating-card {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 25rem;
+  }
+  .rating-card .five-stars {
+    margin-right: 1rem;
+    margin-top: .5rem;
+  }
+  .rating-card:first-child {
+    margin-bottom: 1rem;
+  }
+  .rating-card:nth-child(2) {
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+  }
+  .rating-card:last-child {
+    margin-left: 10rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
