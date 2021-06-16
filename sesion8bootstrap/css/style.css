@@ -3,6 +3,10 @@
   font-size: 15px;
 }
 
+body {
+  background-image: url("../images/bg-pattern-top-mobile.svg");
+}
+
 .rating-card {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -95,6 +99,7 @@
         -ms-flex-align: center;
             align-items: center;
     height: 100vh;
+    background-image: url("../images/bg-pattern-top-desktop.svg");
   }
   .rating-card {
     -webkit-box-orient: horizontal;

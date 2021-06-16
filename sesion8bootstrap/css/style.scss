@@ -10,6 +10,10 @@ $Spartan: 'Spartan', sans-serif;
     font-size: 15px;
 }
 
+body{
+    background-image: url("../images/bg-pattern-top-mobile.svg");
+}
+
 .rating-card{
     align-items: center;
     flex-direction: column;
@@ -81,6 +85,7 @@ $Spartan: 'Spartan', sans-serif;
         display: flex;
         align-items: center;
         height: 100vh;
+        background-image: url("../images/bg-pattern-top-desktop.svg");
     }
     .rating-card{
         flex-direction: row;
