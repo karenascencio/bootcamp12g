@@ -123,7 +123,7 @@ let mostLikedSong = arraySongs => {
 
     arraySongs.forEach(item =>{
         if (item.statistics.likes === mostLikedNumber){
-            console.log(item.name + " by " + item.band)
+            console.log("the song with more likes is " + item.name + " by " + item.band)
         }
     });
 }
@@ -133,3 +133,21 @@ let mostLikedSong = arraySongs => {
 /*saber cuál es la canción con más reproducciones
 ( nombre de la canción y nombre de la banda)
 */
+
+let mostStreamedSong = arraySongs => {
+    let unsortedStreamedNumbers = []
+    
+
+    arraySongs.forEach(item => {
+        unsortedStreamedNumbers.push(item.statistics.reproductions)
+    });
+
+    let sortedStreamedNumbers = unsortedStreamedNumbers.sort(function(a,b){return b-a})
+    let mostStreamedNumber = sortedStreamedNumbers[0]
+
+    arraySongs.forEach(item =>{
+        if (item.statistics.reproductions === mostStreamedNumber){
+            console.log("the song with more reproductions is " + item.name + " by " + item.band)
+        }
+    });
+}
