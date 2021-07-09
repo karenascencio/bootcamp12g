@@ -2,8 +2,11 @@ let nameForm = document.querySelectorAll(".form-control")
 let button = document.getElementById("btn")
 let mentorArray = []
 
-button.addEventListener("click", (event) =>{
+button.addEventListener("click", () =>{
+})
 
+
+function addElementToObject (){
     let mentorObject = {}
     mentorObject.name = nameForm[0].value
     mentorObject.lastName = nameForm[1].value
@@ -11,7 +14,23 @@ button.addEventListener("click", (event) =>{
     nameForm.forEach ( input => {
         input.value=""
     })
+}
 
+function showTable(){
+    let personRow = document.createElement("tr")
+    let indexData = document.createElement("td")
+    let nameData = document.createElement("td")
+    let lastName = document.createElement("td")
+    let deleteButton = document.createElement("td")
+
+}
+
+function deleteData(){
+    
+}
+
+
+/*
     mentorArray.forEach( (person, index) =>  {
         let {name, lastName } = person 
         let personRow = document.createElement("tr")
@@ -46,5 +65,4 @@ button.addEventListener("click", (event) =>{
     
         document.getElementById("person-table").appendChild( personRow )
     })
-})
-
+*/
