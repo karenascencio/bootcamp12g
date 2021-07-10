@@ -1,4 +1,12 @@
-.form-container {
+body {
   width: 900px;
+}
+
+body .form-container {
+  width: 800px;
+}
+
+body .table {
+  width: 800px;
 }
 /*# sourceMappingURL=style.css.map */
